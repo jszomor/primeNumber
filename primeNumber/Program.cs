@@ -12,7 +12,7 @@ namespace primeNumber
 			Int32.TryParse(input, out int number);
 			List<int> primeNumbers = new List<int>();
 
-			for (int i = 0; i <= number; i++)
+			for (int i = 1; i <= number; i++)
 			{
 				if (isPrime(i))
 				{
